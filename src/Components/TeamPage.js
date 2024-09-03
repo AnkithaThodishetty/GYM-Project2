@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Team data
+
 const allTeam = [
   {
     title: 'Jordan Musk',
@@ -32,11 +32,7 @@ const allTeam = [
     description: 'Bodybuilding',
     image: 'https://img.freepik.com/free-photo/strong-man-without-t-shirt_158538-8390.jpg?w=1060&t=st=1681950065~exp=1681950665~hmac=6f29b029eda45cd576342d02652ba50e51c6dbb20f21559d5a634e42b3e7d9db',
   },
-  {
-    title: 'Zinzo Relga',
-    description: 'Weight Lifting',
-    image: 'https://img.freepik.com/free-photo/athletic-young-man-doing-workouts-home-man-doing-training-warm-up-before-weight-exercise_1328-4324.jpg?w=360&t=st=1681949956~exp=1681950556~hmac=619fb5d2cb19b171097a1267ecd4fb581fe4c2ac2079e038358576faefe5f9ee',
-  },
+  
   {
     title: 'Joey Gerg',
     description: 'Martial Arts',
@@ -66,7 +62,7 @@ const allTeam = [
 
 const TeamPage = () => {
   return (
-    <section className="bg-gray-900 text-white py-16">
+    <section className="bg-orange-300 text-white py-16">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-semibold text-center mb-8">Our Team</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">

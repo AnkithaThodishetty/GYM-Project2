@@ -28,7 +28,7 @@ const TrainingProgram = () => {
         ref={scrollContainerRef}
         className="overflow-x-scroll flex space-x-4 p-4 scrollbar-hidden"
       >
-        {/* Training Program Cards */}
+        
         <div className="bg-white p-6 rounded-lg shadow-md flex-none w-60">Program 1</div>
         <div className="bg-white p-6 rounded-lg shadow-md flex-none w-60">Program 2</div>
         <div className="bg-white p-6 rounded-lg shadow-md flex-none w-60">Program 3</div>

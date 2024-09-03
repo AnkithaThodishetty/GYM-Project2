@@ -2,54 +2,62 @@ import React from 'react';
 
 const PricingSection = () => {
   return (
-    <section className="bg-gray-900 text-white py-16">
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Day Pass Card */}
-        <div className="bg-gray-800 p-8 rounded-lg text-center">
-          <h3 className="text-xl font-semibold mb-4">Day Pass</h3>
-          <p className="text-green-500 text-5xl font-bold mb-2">$20</p>
+    <section className="relative bg-black text-white py-20">
+     
+      <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/55de29116380159.6060f9670d5b0.jpg')" }}></div>
+      
+      
+      <div className="relative z-10 text-center mb-16">
+        <h1 className="text-6xl font-extrabold mb-6">
+          YOUR <span className="text-green-400">PLAN</span> YOUR <span className="text-green-400">CHOICE</span>
+        </h1>
+      </div>
+
+      
+      <div className="relative z-10 container mx-auto flex flex-col md:flex-row justify-center items-center gap-10 px-6">
+
+        
+        <div className="bg-green-200 p-10 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300 text-center">
+          <span className="bg-green-400 text-black font-semibold px-4 py-1 rounded-full text-sm">POPULAR</span>
+          <h3 className="text-2xl font-bold mt-4 mb-4">Day Pass</h3>
+          <p className="text-green-400 text-5xl font-extrabold mb-2">$20</p>
           <p className="text-gray-400 mb-4">/ pass</p>
-          <ul className="text-gray-400 mb-6">
+          <ul className="text-gray-400 space-y-2 mb-6">
             <li>1 Day Pass</li>
             <li>Free Gym Access</li>
             <li>24 Hour Access</li>
           </ul>
-          <button className="bg-white text-black font-semibold py-2 px-6 rounded-full">Get Started</button>
+          <button className="bg-white text-black py-2 px-8 rounded-full font-semibold">Buy Now</button>
         </div>
 
-        {/* Month to Month Card */}
-        <div className="bg-white p-8 rounded-lg text-center text-black">
-          <h3 className="text-xl font-semibold mb-4">Month to Month</h3>
-          <p className="text-green-500 text-5xl font-bold mb-2">$90</p>
+       
+        <div className="bg-pink-400 p-10 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300 text-center">
+          <span className="bg-green-400 text-black font-semibold px-4 py-1 rounded-full text-sm">GOLDEN</span>
+          <h3 className="text-2xl font-bold mt-4 mb-4">Month to Month</h3>
+          <p className="text-green-400 text-5xl font-extrabold mb-2">$35</p>
           <p className="text-gray-700 mb-4">/ month</p>
-          <ul className="text-gray-700 mb-6">
-            <li>$99 Joining Fee</li>
+          <ul className="text-gray-700 space-y-2 mb-6">
             <li>No Contract</li>
             <li>Free Gym Access</li>
             <li>1 Group Class Included</li>
-            <li>24 Hour Access</li>
           </ul>
-          <button className="bg-green-500 text-white font-semibold py-2 px-6 rounded-full">Get Started</button>
+          <button className="bg-black text-white py-2 px-8 rounded-full font-semibold">Buy Now</button>
         </div>
 
-        {/* Membership Description */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4">Membership</h3>
-          <p className="text-gray-400 mb-4">
-            From Punch Pass to Monthly or Annual
-          </p>
-          <p className="text-gray-400 mb-4">
-            At Gym Base, we offer a wide range of membership with options to suit every budget. Everything from One Day Pass, Punch Pass to monthly or annual prepaid memberships. What’s more, we won’t tie you in to a long term contract, giving you greater flexibility.
-          </p>
-          <h4 className="text-lg font-semibold mb-2">Each plan includes</h4>
-          <ul className="text-gray-400 list-disc ml-4">
-            <li>The best equipment global brands</li>
-            <li>The gym is open 24 hours a day, 7 days a week</li>
-            <li>Two safe payment methods</li>
-            <li>Group fitness classes in the price of the subscription</li>
-            <li>No long-term contract, period</li>
+        
+        <div className="bg-green-200 p-10 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300 text-center">
+          <span className="bg-green-400 text-black font-semibold px-4 py-1 rounded-full text-sm">PROFESSIONAL</span>
+          <h3 className="text-2xl font-bold mt-4 mb-4">Annual Plan</h3>
+          <p className="text-green-400 text-5xl font-extrabold mb-2">$50</p>
+          <p className="text-gray-400 mb-4">/ year</p>
+          <ul className="text-gray-400 space-y-2 mb-6">
+            <li>Free Gym Access</li>
+            <li>24 Hour Access</li>
+            <li>All Classes Included</li>
           </ul>
+          <button className="bg-white text-black py-2 px-8 rounded-full font-semibold">Buy Now</button>
         </div>
+
       </div>
     </section>
   );

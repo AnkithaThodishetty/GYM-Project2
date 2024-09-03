@@ -2,9 +2,9 @@ import React from 'react';
 
 const MainSection = () => {
   return (
-    <main className="relative flex items-center justify-between h-screen bg-gradient-to-r from-black to-gray-800 px-10">
+    <main className="relative flex items-center justify-between h-screen bg-[url('https://i.etsystatic.com/24456611/r/il/bfb984/3790413431/il_fullxfull.3790413431_795y.jpg')] bg-cover bg-center px-10">
       <div className="text-white max-w-lg z-10">
-        <h1 className="text-4xl font-bold leading-tight mb-4">
+        <h1 className="text-4xl font-bold leading-tight mb-8">
           Take care of your <span className="text-red-500">body.</span> It's the only place you have to <span className="text-red-500">live.</span>
         </h1>
         <button
@@ -14,12 +14,18 @@ const MainSection = () => {
           Join With Us
         </button>
       </div>
+
+     
       <div className="flex justify-center items-center h-full pr-10 z-0">
-        <img
-          src="https://images.pexels.com/photos/3289711/pexels-photo-3289711.jpeg?auto=compress&cs=tinysrgb&w=600"
-          alt="Gym Model"
-          className="h-5/6 w-auto object-contain"
-        />
+        <div className="relative">
+          <img
+            src="https://www.maxxproboxing.com/wp-content/uploads/2023/06/shutterstock_640663666-768x574.jpg"
+            alt="Gym Model"
+            className="w-80 h-80 object-cover rounded-full border-[12px] border-red-500" 
+          />
+          
+          <div className="absolute top-0 left-0 w-full h-full border-[10px] border-blue-500 border-t-[29px] border-l-[18px] rounded-full"></div>
+        </div>
       </div>
     </main>
   );
