@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/GYM-Project2/static/css/main.20d9de10.css",
+    "main.js": "/GYM-Project2/static/js/main.ddded97d.js",
+    "reactPlayerYouTube.js": "/GYM-Project2/static/js/reactPlayerYouTube.98a55826.chunk.js",
+    "reactPlayerSoundCloud.js": "/GYM-Project2/static/js/reactPlayerSoundCloud.854bc785.chunk.js",
+    "reactPlayerVimeo.js": "/GYM-Project2/static/js/reactPlayerVimeo.4b2a0431.chunk.js",
+    "reactPlayerMux.js": "/GYM-Project2/static/js/reactPlayerMux.3a502a89.chunk.js",
+    "reactPlayerFacebook.js": "/GYM-Project2/static/js/reactPlayerFacebook.cbdecf77.chunk.js",
+    "reactPlayerStreamable.js": "/GYM-Project2/static/js/reactPlayerStreamable.bbd40a02.chunk.js",
+    "reactPlayerWistia.js": "/GYM-Project2/static/js/reactPlayerWistia.6d07eee0.chunk.js",
+    "reactPlayerTwitch.js": "/GYM-Project2/static/js/reactPlayerTwitch.5986d758.chunk.js",
+    "reactPlayerDailyMotion.js": "/GYM-Project2/static/js/reactPlayerDailyMotion.86904a83.chunk.js",
+    "reactPlayerMixcloud.js": "/GYM-Project2/static/js/reactPlayerMixcloud.2a4a68f9.chunk.js",
+    "reactPlayerVidyard.js": "/GYM-Project2/static/js/reactPlayerVidyard.e44a2a9e.chunk.js",
+    "reactPlayerKaltura.js": "/GYM-Project2/static/js/reactPlayerKaltura.4a7505b8.chunk.js",
+    "reactPlayerFilePlayer.js": "/GYM-Project2/static/js/reactPlayerFilePlayer.de7cabc9.chunk.js",
+    "reactPlayerPreview.js": "/GYM-Project2/static/js/reactPlayerPreview.c12e4e0c.chunk.js",
+    "static/js/453.64512fd7.chunk.js": "/GYM-Project2/static/js/453.64512fd7.chunk.js",
+    "index.html": "/GYM-Project2/index.html",
+    "main.20d9de10.css.map": "/GYM-Project2/static/css/main.20d9de10.css.map",
+    "main.ddded97d.js.map": "/GYM-Project2/static/js/main.ddded97d.js.map",
+    "reactPlayerYouTube.98a55826.chunk.js.map": "/GYM-Project2/static/js/reactPlayerYouTube.98a55826.chunk.js.map",
+    "reactPlayerSoundCloud.854bc785.chunk.js.map": "/GYM-Project2/static/js/reactPlayerSoundCloud.854bc785.chunk.js.map",
+    "reactPlayerVimeo.4b2a0431.chunk.js.map": "/GYM-Project2/static/js/reactPlayerVimeo.4b2a0431.chunk.js.map",
+    "reactPlayerMux.3a502a89.chunk.js.map": "/GYM-Project2/static/js/reactPlayerMux.3a502a89.chunk.js.map",
+    "reactPlayerFacebook.cbdecf77.chunk.js.map": "/GYM-Project2/static/js/reactPlayerFacebook.cbdecf77.chunk.js.map",
+    "reactPlayerStreamable.bbd40a02.chunk.js.map": "/GYM-Project2/static/js/reactPlayerStreamable.bbd40a02.chunk.js.map",
+    "reactPlayerWistia.6d07eee0.chunk.js.map": "/GYM-Project2/static/js/reactPlayerWistia.6d07eee0.chunk.js.map",
+    "reactPlayerTwitch.5986d758.chunk.js.map": "/GYM-Project2/static/js/reactPlayerTwitch.5986d758.chunk.js.map",
+    "reactPlayerDailyMotion.86904a83.chunk.js.map": "/GYM-Project2/static/js/reactPlayerDailyMotion.86904a83.chunk.js.map",
+    "reactPlayerMixcloud.2a4a68f9.chunk.js.map": "/GYM-Project2/static/js/reactPlayerMixcloud.2a4a68f9.chunk.js.map",
+    "reactPlayerVidyard.e44a2a9e.chunk.js.map": "/GYM-Project2/static/js/reactPlayerVidyard.e44a2a9e.chunk.js.map",
+    "reactPlayerKaltura.4a7505b8.chunk.js.map": "/GYM-Project2/static/js/reactPlayerKaltura.4a7505b8.chunk.js.map",
+    "reactPlayerFilePlayer.de7cabc9.chunk.js.map": "/GYM-Project2/static/js/reactPlayerFilePlayer.de7cabc9.chunk.js.map",
+    "reactPlayerPreview.c12e4e0c.chunk.js.map": "/GYM-Project2/static/js/reactPlayerPreview.c12e4e0c.chunk.js.map",
+    "453.64512fd7.chunk.js.map": "/GYM-Project2/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20d9de10.css",
+    "static/js/main.ddded97d.js"
+  ]
+}
